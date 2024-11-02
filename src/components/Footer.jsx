@@ -6,8 +6,8 @@ import { IoLogoInstagram } from "react-icons/io";
 const Footer = () => {
   return (
     <footer className="w-full">
-      <div className="w-full   bg-gray-200">
-        <div className="flex  justify-between  ps-5 pe-12  py-4 pb-6">
+      <div className="w-full  bg-gray-200">
+        <div className="max-w-[1280px] flex  justify-between  ps-5 pe-12  py-4 pb-6">
           <div>
             <h4 className="font-semibold text-green-900">Popular Locations</h4>
             <p className="text-sm text-green-900 opacity-70 hover:opacity-100">
@@ -99,7 +99,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" px-6 pt-2 flex justify-between text-sm text-white">
+        <div className=" text max-w-[1280px] px-6 pt-2 flex justify-between text-sm text-white">
           <p>Help-Sitemap</p>
           <p>All rights reserved © 2006-2024 OLX</p>
         </div>
